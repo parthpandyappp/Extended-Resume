@@ -1,0 +1,35 @@
+:root {
+  --clr-primary-5: #2caeba;
+  --spacing: 0.3rem;
+}
+
+body {
+  background-color: #dbeafe;
+}
+.bold {
+  font-weight: bold;
+}
+
+.title {
+  /* margin-bottom: 4rem; */
+  font-weight: bolder;
+  text-align: center;
+  letter-spacing: var(--spacing);
+}
+
+.underline {
+  width: 5rem;
+  height: 0.25rem;
+  margin-bottom: 1.25rem;
+  background: var(--clr-primary-5);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ss {
+  margin-top: 150px;
+}
+
+.job-icon {
+  color: var(--clr-primary-5);
+}
